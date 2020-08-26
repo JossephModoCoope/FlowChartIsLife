@@ -1,1 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T02:55:16.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="qy4fSt5YI-2wg586d1vA" version="13.6.5" type="github"><diagram id="QZkJjBfgTAIyttPgU-cu" name="Page-1">dZE9D4IwEIZ/TXdoI+KMqIsTg3NDT9qkcE2pAf31QkrFBl2a63PvfRNWtOPZciOvKEATmoiRsCOhNM/y6Z3B04MdTTxorBIepSuo1AsWGGQPJaCPhA5RO2ViWGPXQe0ixq3FIZbdUcdVDW9gA6qa6y29KeHkMhbdr/wCqpGhcpodvKflQbxM0ksucPhCrCSssIjOW+1YgJ53F/bi405/vJ/GLHTuR8BkrLmnT3QgVr4B</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-26T02:59:43.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="3Dqn91W7lhhyTeD37MKX" version="13.6.5" type="github">
+  <diagram id="QZkJjBfgTAIyttPgU-cu" name="Page-1">
+    <mxGraphModel dx="868" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ONbaFNnml2gXOw2SobQo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ONbaFNnml2gXOw2SobQo-1" target="ONbaFNnml2gXOw2SobQo-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ONbaFNnml2gXOw2SobQo-1" value="Aseguradora" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONbaFNnml2gXOw2SobQo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ONbaFNnml2gXOw2SobQo-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ONbaFNnml2gXOw2SobQo-2" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONbaFNnml2gXOw2SobQo-4" value="Emite el endoso" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ONbaFNnml2gXOw2SobQo-7" value="Auto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
