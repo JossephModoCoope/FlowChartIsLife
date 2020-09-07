@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T19:36:34.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" version="13.6.5" etag="cCBoyWGVG_5yj6TJ8Mkz" type="github"><diagram id="Ysm2OHEgLDSRfJR8_UQ7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-07T19:47:28.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="MCU9FPZesNq9gXGDNokw" version="13.6.5" type="github">
+  <diagram id="Ysm2OHEgLDSRfJR8_UQ7" name="Page-1">
+    <mxGraphModel dx="1021" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Nd1YAbiusfOEKkZuLC5M-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;swimlaneFillColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="720" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd1YAbiusfOEKkZuLC5M-2" value="Banco acreedor" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Nd1YAbiusfOEKkZuLC5M-1">
+          <mxGeometry x="20" width="700" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd1YAbiusfOEKkZuLC5M-10" value="Elabora la Minuta de levantamiento condicionada" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="Nd1YAbiusfOEKkZuLC5M-2">
+          <mxGeometry x="140" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd1YAbiusfOEKkZuLC5M-3" value="Deudor" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Nd1YAbiusfOEKkZuLC5M-1">
+          <mxGeometry x="20" y="150" width="700" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd1YAbiusfOEKkZuLC5M-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Nd1YAbiusfOEKkZuLC5M-3" source="Nd1YAbiusfOEKkZuLC5M-5" target="Nd1YAbiusfOEKkZuLC5M-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd1YAbiusfOEKkZuLC5M-5" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=general;" vertex="1" parent="Nd1YAbiusfOEKkZuLC5M-3">
+          <mxGeometry x="40" y="75" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd1YAbiusfOEKkZuLC5M-7" value="Pedir al banco elabore la Minuta" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="Nd1YAbiusfOEKkZuLC5M-3">
+          <mxGeometry x="140" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd1YAbiusfOEKkZuLC5M-4" value="Comprador" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Nd1YAbiusfOEKkZuLC5M-1">
+          <mxGeometry x="20" y="350" width="700" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd1YAbiusfOEKkZuLC5M-13" value="Expide el cheque a nombre del banco acreedor de la deuda" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="Nd1YAbiusfOEKkZuLC5M-4">
+          <mxGeometry x="300" y="75" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd1YAbiusfOEKkZuLC5M-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Nd1YAbiusfOEKkZuLC5M-1" source="Nd1YAbiusfOEKkZuLC5M-7" target="Nd1YAbiusfOEKkZuLC5M-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
